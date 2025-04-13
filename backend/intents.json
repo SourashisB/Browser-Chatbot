@@ -1,0 +1,212 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Hello",
+                "Good day",
+                "Greetings",
+                "What's up",
+                "How is it going",
+                "Is anyone there?",
+                "Hello there",
+                "Hi there"
+            ],
+            "responses": [
+                "Hello! How can I help you today?",
+                "Hi there! What can I do for you?",
+                "Good day! How may I assist you?",
+                "Greetings! How can I be of service?",
+                "Hey there! What's on your mind?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "I'm leaving",
+                "Have a good day",
+                "Talk to you later",
+                "I've got to go",
+                "Catch you later",
+                "Until next time"
+            ],
+            "responses": [
+                "Goodbye! Come back anytime.",
+                "See you later! Have a great day!",
+                "Bye! It was nice chatting with you.",
+                "Take care! Looking forward to our next conversation.",
+                "Until next time! Have a wonderful day."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "I appreciate it",
+                "Thank you so much",
+                "Thanks a lot",
+                "That was helpful"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Happy to help!",
+                "Anytime!",
+                "My pleasure!",
+                "No problem at all!"
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "Who are you?",
+                "What are you?",
+                "Tell me about yourself",
+                "What can you do?",
+                "How do you work?",
+                "What's your purpose?",
+                "How were you built?",
+                "What is your name?"
+            ],
+            "responses": [
+                "I'm an AI chatbot built with Python, neural networks, and natural language processing. I'm here to assist and chat with you.",
+                "I'm a virtual assistant designed to help answer your questions and have conversations.",
+                "I'm an AI companion created to chat with you and provide information. I use neural networks to understand and respond to your messages.",
+                "I'm a chatbot that uses machine learning to understand what you're saying and respond appropriately.",
+                "I'm your friendly AI assistant, trained on text patterns to have meaningful conversations."
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "help",
+                "I need help",
+                "Can you help me?",
+                "What can you help me with?",
+                "How do I use this?",
+                "What can you do?",
+                "How does this work?",
+                "What should I ask?"
+            ],
+            "responses": [
+                "I can answer questions, chat about various topics, or just keep you company! Try asking me something specific.",
+                "I'm here to assist you! You can ask me questions, chat about your day, or get information on various topics.",
+                "You can ask me about basically anything! I'll do my best to give you a helpful response.",
+                "Just type in any question or statement, and I'll respond accordingly. I'm designed to be conversational and helpful.",
+                "Feel free to chat with me as you would with a friend. I can discuss many topics or just listen if you need someone to talk to."
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "What's the weather like?",
+                "How's the weather today?",
+                "Is it going to rain?",
+                "What's the forecast?",
+                "How hot is it outside?",
+                "Weather forecast"
+            ],
+            "responses": [
+                "I don't have access to real-time weather data, but I'd be happy to chat about other topics!",
+                "I can't check the current weather for you, but you can easily check a weather app or website for that information.",
+                "I don't have weather capabilities at the moment. Is there something else I can help with?",
+                "I don't have access to weather information. Maybe try checking your favorite weather app?",
+                "Unfortunately, I can't provide weather updates. What else would you like to talk about?"
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "Tell me a joke",
+                "Say something funny",
+                "Do you know any jokes?",
+                "Make me laugh",
+                "I want to hear a joke",
+                "Got any humor?"
+            ],
+            "responses": [
+                "Why don't scientists trust atoms? Because they make up everything!",
+                "What did the ocean say to the beach? Nothing, it just waved!",
+                "Why did the scarecrow win an award? Because he was outstanding in his field!",
+                "What do you call a fake noodle? An impasta!",
+                "How does a penguin build its house? Igloos it together!",
+                "Why don't eggs tell jokes? They'd crack each other up!",
+                "I told my wife she was drawing her eyebrows too high. She looked surprised!"
+            ]
+        },
+        {
+            "tag": "time",
+            "patterns": [
+                "What time is it?",
+                "Do you know the time?",
+                "What's the current time?",
+                "Tell me the time",
+                "Current time please"
+            ],
+            "responses": [
+                "I don't have access to the current time. You might want to check your device's clock!",
+                "I don't have real-time capabilities to tell you the current time, sorry!",
+                "I can't access your local time. Could I help with something else?",
+                "I don't have that functionality, but your computer or phone should be able to tell you the time!"
+            ]
+        },
+        {
+            "tag": "identity",
+            "patterns": [
+                "Are you human?",
+                "Are you a bot?",
+                "Are you a person?",
+                "Am I talking to a human?",
+                "Are you AI?",
+                "Are you real?"
+            ],
+            "responses": [
+                "I'm an AI chatbot. I use neural networks and natural language processing to chat with you!",
+                "I'm not human - I'm an artificial intelligence designed to have conversations.",
+                "I'm a bot created to chat and assist people. I'm pretty smart for a collection of code!",
+                "I'm an AI assistant, trained on text patterns to have meaningful conversations.",
+                "I'm artificial intelligence - just a sophisticated program designed to communicate naturally."
+            ]
+        },
+        {
+            "tag": "features",
+            "patterns": [
+                "What can you do?",
+                "What are your features?",
+                "How can you help me?",
+                "What are your capabilities?",
+                "What features do you have?"
+            ],
+            "responses": [
+                "I can chat with you about various topics, answer questions, tell jokes, and provide friendly conversation!",
+                "I'm designed for natural conversation. I can respond to greetings, answer questions about myself, tell jokes, and more!",
+                "I can have discussions on many topics, help with basic information, or just be a friendly chat companion.",
+                "My main feature is conversation! I can chat about various topics and try to provide helpful responses.",
+                "I'm primarily a conversational AI. I can chat, answer questions, and keep you company!"
+            ]
+        },
+        {
+            "tag": "fallback",
+            "patterns": [
+                "I don't understand",
+                "What do you mean?",
+                "This doesn't make sense",
+                "Can you rephrase that?",
+                "I'm confused"
+            ],
+            "responses": [
+                "I apologize if I wasn't clear. Could you tell me what you'd like to know?",
+                "Sorry about that! Let me know how I can better help you.",
+                "I might have misunderstood. Could you phrase your question differently?",
+                "I apologize for the confusion. Let's try a different approach to your question.",
+                "I understand the confusion. Feel free to ask in a different way!"
+            ]
+        }
+    ]
+}
